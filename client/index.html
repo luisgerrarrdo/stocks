@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Stocks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+
+    <header class="jumbotron header">
+      <div class="container">
+        <h1>Stocks App<small> by digital</small></h1>
+      </div>
+    </header>
+
+    <main>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">Search for Symbol</span>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" name="symbol-name" class="form-control" placeholder="Search">
+              </div>
+              <input type="submit" value="Submit" class="btn btn-warning" />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section id="stock-list" class="list-group">
+        <button class="list-group-item">Cras justo odio</button>
+        <button class="list-group-item">Dapibus ac facilisis in</button>
+        <button class="list-group-item">Morbi leo risus</button>
+        <button class="list-group-item">Porta ac consectetur ac</button>
+        <button class="list-group-item">Vestibulum at eros</button>
+      </section>
+
+    </main>
+  </body>
+</html>

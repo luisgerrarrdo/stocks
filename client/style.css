@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.header{
+  margin-bottom: 0;
+  color: aliceblue;
+  background-color: lightslategray;  
+}
+
+.xl{
+  font-size: x-large;
+}
