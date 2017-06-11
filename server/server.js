@@ -2,11 +2,10 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var _ = require('lodash');
-var morgan = require('morgan');
 
-var stockRouter = require('./stocks');
+var db = require('./db');
+var stockRouter = require('./stocks-router');
 
-app.use(morgan('dev'))
 app.use(express.static('client'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
